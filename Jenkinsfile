@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Monitor'){
            steps {
-               echo 'Monitor the app'
+               echo 'Monitor the application'
              }
 }
     }
