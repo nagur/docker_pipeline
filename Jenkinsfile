@@ -5,6 +5,15 @@
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
 	}
+stage('Cloning our Git') { 
+
+            steps { 
+
+                git 'https://github.com/nagur/docker_pipeline.git' 
+
+            }
+
+        } 
 
 	stages {
 
