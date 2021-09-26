@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying the application....'
             }
         }
+        stage('Monitor'){
+           steps {
+               echo 'Monitor the app'
+             }
+}
     }
 }
